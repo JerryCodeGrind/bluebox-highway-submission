@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">Health Monitoring System - Wiring Diagram</text>
+  
+  <!-- Raspberry Pi (Central Hub) -->
+  <rect x="350" y="250" width="100" height="80" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="5"/>
+  <text x="400" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Raspberry Pi</text>
+  <text x="400" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Central Hub</text>
+  
+  <!-- GPIO Pins -->
+  <rect x="360" y="340" width="80" height="20" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="400" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">GPIO</text>
+  
+  <!-- I2C Bus -->
+  <rect x="360" y="370" width="80" height="20" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  <text x="400" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">I2C (SDA/SCL)</text>
+  
+  <!-- USB Ports -->
+  <rect x="360" y="400" width="80" height="20" fill="#27ae60" stroke="#229954" stroke-width="1"/>
+  <text x="400" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">USB</text>
+  
+  <!-- I2S Audio -->
+  <rect x="360" y="430" width="80" height="20" fill="#f39c12" stroke="#e67e22" stroke-width="1"/>
+  <text x="400" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">I2S</text>
+  
+  <!-- SPI Bus -->
+  <rect x="360" y="460" width="80" height="20" fill="#9b59b6" stroke="#8e44ad" stroke-width="1"/>
+  <text x="400" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">SPI</text>
+  
+  <!-- MAX30105 (Heart Rate & SpO2) -->
+  <rect x="50" y="100" width="80" height="60" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="5"/>
+  <text x="90" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">MAX30105</text>
+  <text x="90" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Heart Rate</text>
+  <text x="90" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">& SpO2</text>
+  
+  <!-- MLX90614 (Temperature) -->
+  <rect x="50" y="200" width="80" height="60" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="5"/>
+  <text x="90" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">MLX90614</text>
+  <text x="90" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Temperature</text>
+  <text x="90" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Sensor</text>
+  
+  <!-- ECG Sensor -->
+  <rect x="50" y="300" width="80" height="60" fill="#3498db" stroke="#2980b9" stroke-width="2" rx="5"/>
+  <text x="90" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">ECG</text>
+  <text x="90" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Sensor</text>
+  <text x="90" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Module</text>
+  
+  <!-- ReSpeaker Mic Array -->
+  <rect x="50" y="400" width="80" height="60" fill="#27ae60" stroke="#229954" stroke-width="2" rx="5"/>
+  <text x="90" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">ReSpeaker</text>
+  <text x="90" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Mic Array</text>
+  <text x="90" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">v2.0</text>
+  
+  <!-- HiFiBerry MiniAmp -->
+  <rect x="670" y="100" width="80" height="60" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="5"/>
+  <text x="710" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">HiFiBerry</text>
+  <text x="710" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">MiniAmp</text>
+  <text x="710" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">(I2S)</text>
+  
+  <!-- Speakers -->
+  <rect x="670" y="200" width="80" height="60" fill="#9b59b6" stroke="#8e44ad" stroke-width="2" rx="5"/>
+  <text x="710" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">4" Speakers</text>
+  <text x="710" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">(2x)</text>
+  
+  <!-- L298N Motor Driver -->
+  <rect x="670" y="300" width="80" height="60" fill="#95a5a6" stroke="#7f8c8d" stroke-width="2" rx="5"/>
+  <text x="710" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">L298N</text>
+  <text x="710" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Motor</text>
+  <text x="710" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Driver</text>
+  
+  <!-- Linear Actuator -->
+  <rect x="670" y="400" width="80" height="60" fill="#e67e22" stroke="#d35400" stroke-width="2" rx="5"/>
+  <text x="710" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">Linear</text>
+  <text x="710" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Actuator</text>
+  <text x="710" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">(12V)</text>
+  
+  <!-- PCA9685 Servo Driver -->
+  <rect x="200" y="50" width="80" height="60" fill="#3498db" stroke="#2980b9" stroke-width="2" rx="5"/>
+  <text x="240" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">PCA9685</text>
+  <text x="240" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Servo</text>
+  <text x="240" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Driver</text>
+  
+  <!-- Servos -->
+  <rect x="200" y="150" width="80" height="60" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="5"/>
+  <text x="240" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">MG996R</text>
+  <text x="240" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">+ SG90</text>
+  <text x="240" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Servos</text>
+  
+  <!-- MCP3008 ADC -->
+  <rect x="200" y="250" width="80" height="60" fill="#9b59b6" stroke="#8e44ad" stroke-width="2" rx="5"/>
+  <text x="240" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">MCP3008</text>
+  <text x="240" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">ADC</text>
+  <text x="240" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">(SPI)</text>
+  
+  <!-- Piezo + LM386 -->
+  <rect x="200" y="350" width="80" height="60" fill="#27ae60" stroke="#229954" stroke-width="2" rx="5"/>
+  <text x="240" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">Piezo Mic</text>
+  <text x="240" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">+ LM386</text>
+  <text x="240" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Amp</text>
+  
+  <!-- Touchscreen -->
+  <rect x="200" y="450" width="80" height="60" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="5"/>
+  <text x="240" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">7" Touch</text>
+  <text x="240" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Screen</text>
+  <text x="240" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">(HDMI)</text>
+  
+  <!-- Connection Lines -->
+  <!-- I2C Connections -->
+  <line x1="130" y1="130" x2="350" y2="380" stroke="#3498db" stroke-width="3" stroke-dasharray="5,5"/>
+  <line x1="130" y1="230" x2="350" y2="380" stroke="#3498db" stroke-width="3" stroke-dasharray="5,5"/>
+  <line x1="280" y1="80" x2="350" y2="380" stroke="#3498db" stroke-width="3" stroke-dasharray="5,5"/>
+  
+  <!-- USB Connection -->
+  <line x1="130" y1="430" x2="350" y2="410" stroke="#27ae60" stroke-width="3"/>
+  
+  <!-- I2S Connection -->
+  <line x1="670" y1="130" x2="450" y2="440" stroke="#f39c12" stroke-width="3"/>
+  <line x1="670" y1="230" x2="450" y2="440" stroke="#f39c12" stroke-width="3"/>
+  
+  <!-- GPIO Connection -->
+  <line x1="670" y1="330" x2="450" y2="350" stroke="#95a5a6" stroke-width="3"/>
+  <line x1="670" y1="430" x2="450" y2="350" stroke="#95a5a6" stroke-width="3"/>
+  
+  <!-- SPI Connection -->
+  <line x1="280" y1="280" x2="350" y2="470" stroke="#9b59b6" stroke-width="3"/>
+  <line x1="280" y1="380" x2="350" y2="470" stroke="#9b59b6" stroke-width="3"/>
+  
+  <!-- HDMI Connection -->
+  <line x1="280" y1="480" x2="350" y2="480" stroke="#e67e22" stroke-width="3"/>
+  
+  <!-- Legend -->
+  <rect x="20" y="520" width="760" height="70" fill="white" stroke="#dee2e6" stroke-width="1" rx="5"/>
+  <text x="30" y="540" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Connection Types:</text>
+  
+  <line x1="30" y1="550" x2="50" y2="550" stroke="#3498db" stroke-width="3" stroke-dasharray="5,5"/>
+  <text x="60" y="555" font-family="Arial, sans-serif" font-size="10" fill="#333">I2C (SDA/SCL) - MAX30105, MLX90614, PCA9685</text>
+  
+  <line x1="30" y1="565" x2="50" y2="565" stroke="#27ae60" stroke-width="3"/>
+  <text x="60" y="570" font-family="Arial, sans-serif" font-size="10" fill="#333">USB - ReSpeaker Mic Array</text>
+  
+  <line x1="30" y1="580" x2="50" y2="580" stroke="#f39c12" stroke-width="3"/>
+  <text x="60" y="585" font-family="Arial, sans-serif" font-size="10" fill="#333">I2S - HiFiBerry MiniAmp, Speakers</text>
+  
+  <line x1="30" y1="595" x2="50" y2="595" stroke="#95a5a6" stroke-width="3"/>
+  <text x="60" y="600" font-family="Arial, sans-serif" font-size="10" fill="#333">GPIO - L298N Motor Driver, Linear Actuator</text>
+  
+  <line x1="400" y1="550" x2="420" y2="550" stroke="#9b59b6" stroke-width="3"/>
+  <text x="430" y="555" font-family="Arial, sans-serif" font-size="10" fill="#333">SPI - MCP3008 ADC, Piezo + LM386</text>
+  
+  <line x1="400" y1="565" x2="420" y2="565" stroke="#e67e22" stroke-width="3"/>
+  <text x="430" y="570" font-family="Arial, sans-serif" font-size="10" fill="#333">HDMI - 7" Touchscreen</text>
+</svg> 
