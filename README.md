@@ -3,17 +3,19 @@
 ## Project Description
 My project aims to fully detect a patient's vital signs through a hand placement device, a camera, a stethoscope, and a temperature sensor. We're trying to streamline the patient diagnosis process by making vital sign detection easier. The vitals it detects are: SpO2, Pulse, Body Temperature, Respiratory Rate, Blood Pressure, ECG. The camera is also involved in the diagnosis process in which computer vision helps in providing additional information to the main diagnoser model.
 
+![Screenshot](Progress%20Photos%20+%20Videos/image.png)
+
 ## Why We Made This Project
 We live in Ontario, Canada where there is a severe shortage of family doctors. Over 2.5 million Canadians living in Ontario lack family doctors and we want to fix this. We are already very advanced in the software side of the project but believe that hardware used to track vital signs are becoming increasingly important so we decided to build a project which can detect all of a patient's basic vital signs without doctor intervention. 
 
 ### 3D Model
-All stl components in 3dprints folder
+All stl components in [3dprints](3dprints/) folder
 
 ### Software
-The software contains all the code for controller the raspberry pi as well as calibrating and outputting results with the sensors. The GPU AI doctor backend is hosted on the cloud and then accessed via an endpoint. All code is in the software folder.
+The software contains all the code for controller the raspberry pi as well as calibrating and outputting results with the sensors. The GPU AI doctor backend is hosted on the cloud and then accessed via an endpoint. All code is in the [software](software/) folder.
 
 ### Wiring Diagram
-wiring/circutwiring.png
+[wiring/circutwiring.png](wiring/circutwiring.png)
 
 ## Bill of Materials
 
@@ -38,3 +40,4 @@ wiring/circutwiring.png
 | Acoustic Sensor | 35mm Piezo Contact Mic | 1 | Piezoelectric contact microphone for acoustic sensing | [Link](https://www.amazon.com/DZS-Elec-Transducer-Microphone-Instrument/dp/B07TF5Q74Z) |
 | Audio Amplifier | LM386 Breakout Board | 1 | Audio amplifier module for piezo microphone | [Link](https://www.amazon.com/HiLetgo-LM386-Audio-Amplifier-Module/dp/B00LNACGTY) |
 | ADC | MCP3008 ADC Module | 1 | 8-channel 10-bit analog-to-digital converter | [Link](https://www.amazon.com/raspberryads1115-Breakout-soldered-Development-Converter/dp/B0C4QBYWYH) | 
+
