@@ -1,5 +1,10 @@
 # Project Journal - Health Monitoring System
 
+Title: Bluebox
+Author: Jerry Huang and Nathan Yan
+Description: Fully functional diagnostic device which detects all the patient's vitals in less than 10 seconds!
+Created_at: 2025-07-07
+
 ## Total Time Spent: 16 hours
 
 ## July 3rd - Thursday
