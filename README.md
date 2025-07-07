@@ -3,7 +3,7 @@
 ## Project Description
 My project aims to fully detect a patient's vital signs through a hand placement device, a camera, a stethoscope, and a temperature sensor. We're trying to streamline the patient diagnosis process by making vital sign detection easier. The vitals it detects are: SpO2, Pulse, Body Temperature, Respiratory Rate, Blood Pressure, ECG. The camera is also involved in the diagnosis process in which computer vision helps in providing additional information to the main diagnoser model.
 
-![Screenshot](Progress%20Photos%20+%20Videos/image.png)
+![CAD Folder](Progress%20Photos%20+%20Videos/image.png)
 
 ## Why We Made This Project
 We live in Ontario, Canada where there is a severe shortage of family doctors. Over 2.5 million Canadians living in Ontario lack family doctors and we want to fix this. We are already very advanced in the software side of the project but believe that hardware used to track vital signs are becoming increasingly important so we decided to build a project which can detect all of a patient's basic vital signs without doctor intervention. 
@@ -39,5 +39,8 @@ The software contains all the code for controller the raspberry pi as well as ca
 | Servo Control | PCA9685 Servo Driver Board | 1 | 16-channel PWM servo driver board | [Link](https://www.amazon.com/SunFounder-PCA9685-Channel-Arduino-Raspberry/dp/B014KTSMLA) |
 | Acoustic Sensor | 35mm Piezo Contact Mic | 1 | Piezoelectric contact microphone for acoustic sensing | [Link](https://www.amazon.com/DZS-Elec-Transducer-Microphone-Instrument/dp/B07TF5Q74Z) |
 | Audio Amplifier | LM386 Breakout Board | 1 | Audio amplifier module for piezo microphone | [Link](https://www.amazon.com/HiLetgo-LM386-Audio-Amplifier-Module/dp/B00LNACGTY) |
-| ADC | MCP3008 ADC Module | 1 | 8-channel 10-bit analog-to-digital converter | [Link](https://www.amazon.com/raspberryads1115-Breakout-soldered-Development-Converter/dp/B0C4QBYWYH) | 
+| ADC | MCP3008 ADC Module | 1 | 8-channel 10-bit analog-to-digital converter | [Link](https://www.amazon.com/raspberryads1115-Breakout-soldered-Development-Converter/dp/B0C4QBYWYH) |
+| Main Board | Raspberry Pi 5 (8GB) | 1 | Quad-core single-board computer | [Link](https://www.amazon.com/Raspberry-Pi-8GB-SC1112-Quad-core/dp/B0CK2FCG1K?dib=eyJ2IjoiMSJ9.KmdhrY0pHCHs8fYFQTqApg6yc_rQ-5gVQxb8m2c6y231durrp3cmrp6IkoPutTo48ahwW2Bf34_R7waUkWOYy780pJ8xE0ByKOgeBC2MD9bOjIrZXvBWLPaj3OQre_mUHrsa6Y7PBu4NEzdfOwGlYVphifAvrHtqwTDIlwGdJ7-YVing2d-LyjRxiLDPB60oTyo6mmv-m74KTwOwl7bBpC6xuTeeLY1x_bWdcWIy56Q.Ltni5FeUxM2BX2GktavaJ0DsPt7bvMiCU-PCNwdXn1E&dib_tag=se&keywords=raspberry+pi+5&qid=1751915139&sr=8-1) |
+
+**Bill of Materials Subtotal:** $483.05
 

@@ -1,4 +1,5 @@
 Category,Part Name,Quantity,Description,Link
++Main Board,Raspberry Pi 5 (8GB),1,Quad-core single-board computer,https://www.amazon.com/Raspberry-Pi-8GB-SC1112-Quad-core/dp/B0CK2FCG1K?dib=eyJ2IjoiMSJ9.KmdhrY0pHCHs8fYFQTqApg6yc_rQ-5gVQxb8m2c6y231durrp3cmrp6IkoPutTo48ahwW2Bf34_R7waUkWOYy780pJ8xE0ByKOgeBC2MD9bOjIrZXvBWLPaj3OQre_mUHrsa6Y7PBu4NEzdfOwGlYVphifAvrHtqwTDIlwGdJ7-YVing2d-LyjRxiLDPB60oTyo6mmv-m74KTwOwl7bBpC6xuTeeLY1x_bWdcWIy56Q.Ltni5FeUxM2BX2GktavaJ0DsPt7bvMiCU-PCNwdXn1E&dib_tag=se&keywords=raspberry+pi+5&qid=1751915139&sr=8-1
 Heart Rate & SpO2,MAX30105 Sensor Module,1,Heart rate and SpO2 sensor with particle photodetectors,https://www.amazon.com/Accuracy-MAX30105-Particle-Photodetectors-Detection/dp/B0F6MLWF8K
 ECG,ECG Sensor Module,1,Electrocardiogram sensor for heart monitoring,https://www.amazon.com/gp/product/B0FB54XWFG
 Temperature,MLX90614 Temperature Sensor,1,Non-contact infrared temperature sensor module,https://www.amazon.com/SHILLEHTEK-Pre-Soldered-Non-Touch-Temperature-Microcontrollers/dp/B0CNM72R4L
@@ -18,3 +19,5 @@ Servo Control,PCA9685 Servo Driver Board,1,16-channel PWM servo driver board,htt
 Acoustic Sensor,35mm Piezo Contact Mic,1,Piezoelectric contact microphone for acoustic sensing,https://www.amazon.com/DZS-Elec-Transducer-Microphone-Instrument/dp/B07TF5Q74Z
 Audio Amplifier,LM386 Breakout Board,1,Audio amplifier module for piezo microphone,https://www.amazon.com/HiLetgo-LM386-Audio-Amplifier-Module/dp/B00LNACGTY
 ADC,MCP3008 ADC Module,1,8-channel 10-bit analog-to-digital converter,https://www.amazon.com/raspberryads1115-Breakout-soldered-Development-Converter/dp/B0C4QBYWYH 
+
+Subtotal: 483.05
